@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.post_container{
+    max-width: 90%;
+    width: 50rem;
+    margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-container{
+    max-width: 90%;
+    width: 20rem;
+    margin: 0 auto;
+    margin-top: 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loader{
+    bottom: 50%;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loaderpost{
+    bottom: 50%;
+    width: 7%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.post-content{
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_buttons{
+    max-width: 90%;
+    width: 20rem;
+    margin: 2rem;
+    text-align: center;
+    padding: 3rem .5rem 3rem .5rem;
+}
+
+.btn_link_container{
+    display: flex;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    max-width: 90%;
+    width: 50rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.dashboard_top_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar img{
+    height: 10rem;
+    width: auto;
 }
